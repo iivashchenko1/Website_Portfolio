@@ -16,7 +16,10 @@
     <a class="brand" href="#home" aria-label="Illia Ivashchenko home">II<span>.</span></a>
     <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation"><span></span><span></span></button>
     <nav id="main-nav" class="nav-links" aria-label="Main navigation">
-      <a href="#about">About</a><a href="#work">Work</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
       <a class="nav-resume" href="assets/resume.pdf" target="_blank" rel="noopener">Resume <span>↗</span></a>
     </nav>
   </header>
@@ -28,8 +31,15 @@
         <p class="eyebrow"><span class="status-dot"></span> SOFTWARE ENGINEERING · TORONTO, ON</p>
         <h1>Building thoughtful<br><span>software that works.</span></h1>
         <p class="hero-copy">I’m Illia, a Software Engineering student and backend-focused developer. I build reliable services, care about privacy, and like seeing a feature through from code to deployment.</p>
-        <div class="hero-actions"><a class="button button-dark" href="#projects">Explore my work <span>↓</span></a><a class="button button-light" href="assets/resume.pdf" target="_blank" rel="noopener">View resume <span>↗</span></a></div>
-        <div class="hero-links"><a href="https://github.com/iivashchenko1" target="_blank" rel="noopener">GitHub ↗</a><a href="https://www.linkedin.com/in/illiaivashchenko" target="_blank" rel="noopener">LinkedIn ↗</a><a href="mailto:ivchick350@gmail.com">Email ↗</a></div>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#projects">Explore my work <span>↓</span></a>
+          <a class="button button-light" href="assets/resume.pdf" target="_blank" rel="noopener">View resume <span>↗</span></a>
+        </div>
+        <div class="hero-links">
+          <a href="https://github.com/iivashchenko1" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/illiaivashchenko" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="mailto:ivchick350@gmail.com">Email ↗</a>
+        </div>
       </div>
       <div class="hero-mark" aria-hidden="true"><span>TS</span><span>API</span><span>DB</span><span>TEST</span><span>SHIP</span></div>
       <a class="scroll-cue" href="#about">SCROLL TO EXPLORE <span>↓</span></a>
@@ -39,32 +49,149 @@
       <div class="section-label"><span>01</span> ABOUT</div>
       <div class="about-layout">
         <h2>Engineering for<br>the details that matter.</h2>
-        <div class="about-copy"><p>I’m studying Software Engineering at Seneca Polytechnic and work as an A.I. Development Intern at Project Human City. My day-to-day work includes TypeScript and Node.js services, PostgreSQL changes, automated tests, privacy protections, and deployment checks.</p><p>I enjoy taking a problem apart, finding a simple approach, and verifying that the result behaves as intended. I’m especially interested in backend systems, developer tools, and useful AI products.</p><a class="text-link" href="#contact">A little more about me <span>↗</span></a></div>
+        <div class="about-copy">
+          <p>I’m studying Software Engineering at Seneca Polytechnic and work as an A.I. Development Intern at Project Human City. My day-to-day work includes TypeScript and Node.js services, PostgreSQL changes, automated tests, privacy protections, and deployment checks.</p>
+          <p>I enjoy taking a problem apart, finding a simple approach, and verifying that the result behaves as intended. I’m especially interested in backend systems, developer tools, and useful AI products.</p>
+          <a class="text-link" href="#contact">A little more about me <span>↗</span></a>
+        </div>
       </div>
-      <div class="skill-board"><div class="skill-heading">TOOLS I WORK WITH</div><div class="skill-list"><span>TypeScript</span><span>Node.js</span><span>PostgreSQL</span><span>Vitest</span><span>Python</span><span>C++</span><span>Kubernetes</span><span>Docker</span><span>Git</span><span>CI/CD</span><span>HTML & CSS</span></div></div>
+      <div class="skill-board">
+        <div class="skill-heading">TOOLS I WORK WITH</div>
+        <div class="skill-list">
+          <span>TypeScript</span><span>Node.js</span><span>PostgreSQL</span><span>Vitest</span><span>Python</span><span>C++</span><span>Kubernetes</span><span>Docker</span><span>Git</span><span>CI/CD</span><span>HTML &amp; CSS</span>
+        </div>
+      </div>
     </section>
 
     <section class="section experience-section" id="work">
       <div class="section-label"><span>02</span> EXPERIENCE</div>
-      <div class="experience-card"><div class="experience-top"><div><p class="eyebrow">MAY 2026 — PRESENT · REMOTE</p><h2>A.I. Development Intern</h2><p class="company">Project: Human City</p></div><span class="experience-index">01 / 01</span></div><div class="experience-bottom"><p>Building verification and attestation services and helping strengthen privacy, testing, and delivery practices across the product.</p><ul><li>Develop TypeScript/Node.js service features, including signed issuance workflows.</li><li>Update PostgreSQL schemas and migrations; add automated tests with Vitest.</li><li>Implement personal-information detection and redaction across logs, events, exports, and error surfaces.</li><li>Improve CI and Kubernetes deployment checks, including readiness probes and canary validation.</li></ul></div></div>
+      <div class="experience-card">
+        <div class="experience-top">
+          <div>
+            <p class="eyebrow">MAY 2026 — PRESENT · REMOTE</p>
+            <h2>A.I. Development Intern</h2>
+            <p class="company">Project: Human City</p>
+          </div>
+          <span class="experience-index">01 / 01</span>
+        </div>
+        <div class="experience-bottom">
+          <p>Building verification and attestation services and helping strengthen privacy, testing, and delivery practices across the product.</p>
+          <ul>
+            <li>Develop TypeScript/Node.js service features, including signed issuance workflows.</li>
+            <li>Update PostgreSQL schemas and migrations; add automated tests with Vitest.</li>
+            <li>Implement personal-information detection and redaction across logs, events, exports, and error surfaces.</li>
+            <li>Improve CI and Kubernetes deployment checks, including readiness probes and canary validation.</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <section class="section projects-section" id="projects">
       <div class="section-label"><span>03</span> SELECTED PROJECTS</div>
-      <div class="projects-heading"><h2>Things I’ve<br>made and learned from.</h2><p>Small, focused projects that show how I approach code, data, and the user experience.</p></div>
-      <div class="project-grid">
-        <article class="project-card project-wide"><div class="project-visual visual-portfolio"><div class="mock-window"><div class="mock-bar"><i></i><i></i><i></i><span>portfolio/index.html</span></div><div class="mock-hero"><small>HELLO, I’M ILLIA</small><b>Software<br>Developer<span>.</span></b><div class="mock-lines"><i></i><i></i></div><button>VIEW WORK ↘</button></div></div><span class="visual-tag">01 / WEB</span></div><div class="project-info"><div><p class="project-type">PERSONAL WEBSITE · HTML / CSS</p><h3>Developer Portfolio</h3><p>A responsive portfolio for presenting my experience, projects, and resume in one place.</p></div><a class="round-link" href="https://github.com/iivashchenko1" target="_blank" rel="noopener" aria-label="GitHub profile">↗</a></div></article>
-        <article class="project-card"><div class="project-visual visual-explorer"><div class="terminal"><div class="terminal-head"><span>souls_explorer.py</span><span>● ● ●</span></div><p class="term-muted">&gt; loading entries...</p><p><b>FILTER</b> by game, boss, or area</p><div class="term-row"><span>ELDEN RING</span><span>Bosses: 14</span></div><div class="term-row"><span>DARK SOULS III</span><span>Bosses: 19</span></div><div class="term-cursor">_</div></div><span class="visual-tag">02 / PYTHON</span></div><div class="project-info"><div><p class="project-type">PYTHON · CSV · CLI</p><h3>Souls-like Explorer</h3><p>Search, filter, and sort game data, then generate useful summary statistics.</p></div><a class="round-link" href="https://github.com/iivashchenko1" target="_blank" rel="noopener" aria-label="GitHub profile">↗</a></div></article>
-        <article class="project-card"><div class="project-visual visual-container"><div class="container-art"><span class="container-node">head</span><span class="connector c1"></span><span class="container-node n2">item</span><span class="connector c2"></span><span class="container-node n3">item</span><span class="connector c3"></span><span class="container-node n4">tail</span><div class="container-caption">TEMPLATED · LINKED · REORDERABLE</div></div><span class="visual-tag">03 / C++</span></div><div class="project-info"><div><p class="project-type">C++ · DATA STRUCTURES</p><h3>Weighted List Container</h3><p>A linked container implemented from scratch with search, erase, and access-based reordering.</p></div><a class="round-link" href="https://github.com/iivashchenko1" target="_blank" rel="noopener" aria-label="GitHub profile">↗</a></div></article>
+      <div class="projects-heading">
+        <h2>Things I’ve<br>made and learned from.</h2>
+        <p>Small, focused projects that show how I approach code, data, and the user experience.</p>
       </div>
-      <p class="repo-note">Project links currently point to my GitHub profile. I’ll connect each card to its own repository as I organize the projects. <a href="https://github.com/iivashchenko1" target="_blank" rel="noopener">Visit GitHub ↗</a></p>
+
+      <div class="project-grid">
+        <article class="project-card project-wide">
+          <div class="project-visual visual-portfolio">
+            <div class="mock-window">
+              <div class="mock-bar"><i></i><i></i><i></i><span>chat_server.py</span></div>
+              <div class="mock-hero">
+                <small>PYTHON · TCP SOCKETS</small>
+                <b>Chat<br>Server<span>.</span></b>
+                <div class="mock-lines"><i></i><i></i></div>
+                <button>CONNECTED ↗</button>
+              </div>
+            </div>
+            <span class="visual-tag">01 / PYTHON</span>
+          </div>
+          <div class="project-info">
+            <div>
+              <p class="project-type">PYTHON · TCP · SQLITE</p>
+              <h3>TCP Chat Application</h3>
+              <p>A threaded client-server chat app with account registration, password hashing, message history, and SQLite storage.</p>
+            </div>
+            <a class="round-link" href="https://github.com/iivashchenko1/Chatbot-" target="_blank" rel="noopener" aria-label="View the TCP Chat Application GitHub repository">↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-explorer">
+            <div class="terminal">
+              <div class="terminal-head"><span>souls_explorer.py</span><span>● ● ●</span></div>
+              <p class="term-muted">&gt; loading games.csv...</p>
+              <p><b>FILTER</b> by year or Metacritic score</p>
+              <div class="term-row"><span>ELDEN RING</span><span>2022</span></div>
+              <div class="term-row"><span>DARK SOULS III</span><span>2016</span></div>
+              <div class="term-cursor">_</div>
+            </div>
+            <span class="visual-tag">02 / PYTHON</span>
+          </div>
+          <div class="project-info">
+            <div>
+              <p class="project-type">PYTHON · CSV · CLI</p>
+              <h3>FromSoftware / Souls-like Explorer</h3>
+              <p>A command-line tool to browse game data, filter titles, and calculate playtime and score summaries.</p>
+            </div>
+            <a class="round-link" href="https://github.com/iivashchenko1/fromsoftware-stats" target="_blank" rel="noopener" aria-label="View the FromSoftware Explorer GitHub repository">↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-container">
+            <div class="container-art">
+              <span class="container-node">head</span><span class="connector c1"></span>
+              <span class="container-node n2">item</span><span class="connector c2"></span>
+              <span class="container-node n3">item</span><span class="connector c3"></span>
+              <span class="container-node n4">tail</span>
+              <div class="container-caption">TEMPLATED · WEIGHTED · REORDERABLE</div>
+            </div>
+            <span class="visual-tag">03 / C++</span>
+          </div>
+          <div class="project-info">
+            <div>
+              <p class="project-type">C++17 · DATA STRUCTURES</p>
+              <h3>Templated Weighted List</h3>
+              <p>A header-only container that increases an item’s access weight and promotes frequently used values.</p>
+            </div>
+            <a class="round-link" href="https://github.com/iivashchenko1/templated-weighted-list" target="_blank" rel="noopener" aria-label="View the Templated Weighted List GitHub repository">↗</a>
+          </div>
+        </article>
+      </div>
     </section>
 
-    <section class="resume-band"><div><p class="eyebrow">WANT THE DETAILS?</p><h2>Here’s my resume.</h2></div><a class="button button-light" href="assets/resume.pdf" target="_blank" rel="noopener">Open PDF <span>↗</span></a></section>
+    <section class="resume-band">
+      <div>
+        <p class="eyebrow">WANT THE DETAILS?</p>
+        <h2>Here’s my resume.</h2>
+      </div>
+      <a class="button button-light" href="assets/resume.pdf" target="_blank" rel="noopener">Open PDF <span>↗</span></a>
+    </section>
 
-    <section class="section contact-section" id="contact"><div class="section-label"><span>04</span> CONTACT</div><div class="contact-layout"><div><h2>Have a project<br>or role in mind?</h2><p>I’d be glad to hear from you. Email is the easiest way to reach me.</p></div><div class="contact-links"><a href="mailto:ivchick350@gmail.com">ivchick350@gmail.com <span>↗</span></a><a href="https://www.linkedin.com/in/illiaivashchenko" target="_blank" rel="noopener">LinkedIn <span>↗</span></a><a href="https://github.com/iivashchenko1" target="_blank" rel="noopener">GitHub <span>↗</span></a></div></div></section>
+    <section class="section contact-section" id="contact">
+      <div class="section-label"><span>04</span> CONTACT</div>
+      <div class="contact-layout">
+        <div>
+          <h2>Have a project<br>or role in mind?</h2>
+          <p>I’d be glad to hear from you. Email is the easiest way to reach me.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:ivchick350@gmail.com">ivchick350@gmail.com <span>↗</span></a>
+          <a href="https://www.linkedin.com/in/illiaivashchenko" target="_blank" rel="noopener">LinkedIn <span>↗</span></a>
+          <a href="https://github.com/iivashchenko1" target="_blank" rel="noopener">GitHub <span>↗</span></a>
+        </div>
+      </div>
+    </section>
   </main>
-  <footer><a class="brand" href="#home">II<span>.</span></a><p>Designed and built by Illia Ivashchenko · Toronto, ON</p><a href="#home">BACK TO TOP ↑</a></footer>
+
+  <footer>
+    <a class="brand" href="#home">II<span>.</span></a>
+    <p>Designed and built by Illia Ivashchenko · Toronto, ON</p>
+    <a href="#home">BACK TO TOP ↑</a>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
